@@ -24,6 +24,17 @@
 *.zip
 *.log
 
+# Local one-off scripts / docs (keep repo clean)
+/*.php
+!artisan
+!phpunit.xml
+/*.md
+
+# If you want docs tracked, remove the line above and whitelist docs explicitly.
+
+# Local credentials / service files
+/firebase-auth.json
+
 .DS_Store
 .idea/
 .vscode/
